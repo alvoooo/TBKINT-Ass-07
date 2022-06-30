@@ -1,0 +1,52 @@
+img{
+width: 200px;
+height: 130px;
+}
+h1{
+text-align: center;
+    font-size: xv larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: bold;
+    font-style: italic;
+}
+.navbar{
+    background-color: none;
+    padding: 1px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: inline block;
+    position: relative;
+}
+.button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-style: italic,bold;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+}
+.button:hover{
+    background-color: transparent;
+}
+.imagelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    background-color: rgb(206, 205, 205);
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    font-size: 1em;
+}

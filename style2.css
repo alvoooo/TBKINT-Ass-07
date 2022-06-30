@@ -1,0 +1,295 @@
+body{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    background-color: none;
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: inline block;
+    position: relative;
+}
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+}
+.button:hover{
+    background-color: transparent;
+    color: brown;
+}
+.button1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+}
+.button1:hover{
+    background-color: transparent;
+    color: black;
+}
+.img {
+    height: 630px;
+    width: 1360px;
+    position: center;
+    
+    size: cover;
+    position: relative;
+}
+.image{
+   height: 300px;
+   width: 450px;
+  }
+.my-container{
+    margin: 0;
+}
+.my-column{
+    height: 500px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+.p1{
+    color: black;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p2{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer{
+    margin-top: 25px;
+    height: auto;
+    background-color: black;
+    padding: 0px;
+    font-size: smaller;
+    font-weight: bold;
+    color: darkgrey;
+}
+.footerlink{
+    color: darkgray;
+}
+.footerlink:hover{
+    color: darkgray;
+}
+footer.p{
+    color: white;
+}
+.pfooter{
+    font-size: large;
+    color: white;
+} 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iconbtn{
+    color: grey;
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+}
+.iconbtn:hover{
+    color: white;
+
+}
+.iconbtn:nth-child(1):hover{
+    background-color:#3b5998;
+}
+.iconbtn:nth-child(2):hover{
+    background-color:#1DA1F2;
+}
+.iconbtn:nth-child(3):hover{
+    background-color: #d6249f;
+}
+.iconbtn:nth-child(4):hover{
+    background-color:red;
+}
+.iconbtn:nth-child(5):hover{
+    background-color:red;
+}
+.form-control{
+    background-color: transparent;
+}
+
+.submit:hover{
+    color: white;
+}
+.ph2{
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 20px;
+}
+.pabout{
+    font-family: 'Lato;sans-serif';
+    font-size: medium;
+    color: rgb(33, 31, 31);
+    font-weight: bold;
+    background-color: white;   
+}
+.icon{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(52, 50, 50);
+    margin: 10px;
+    
+}
+.h21{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 5px;
+}
+.h2p1{ 
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.h2p2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'free sans';
+}
+.icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(52, 51, 51);
+    text-decoration: none;
+    margin: 5px;
+    position: relative;
+    font-size: 35px;
+    display: inline-block;
+    padding: 0px;
+
+}
+.mapouter{
+    margin: 10px;
+    position:relative;
+    text-align:right;
+    height:400px;
+    width:900px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:400px;
+    width:900px;
+    }
+    .my-container1{
+        height: auto;
+        width: auto;
+        padding: 5px;
+        position: relative;
+        
+    }
+    .my-col1{
+        border: 0.0px solid dimgray;
+        color: black;
+        text-align: bottom;
+        
+    }
+    .image1{
+        height: 85%;
+        width: 100%;
+        display: block;
+
+    }
+    .overlay{
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        background: transparent;
+        background: transparent;
+        color: green;
+        transition: .5s ease;
+        opacity: 0;
+        color: black;
+        font-size: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+    .my-col1:hover .overlay{
+        opacity: 5;
+    }
+    .link{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+    }
+.text{
+    bottom: 0;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+.text1{
+    color: black;
+}
+.text1:hover{
+    color: black;
+}
+.image2{
+    width: auto;
+    height: min-content;
+}
+.imagelogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ph1hoodies{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn1{
+    background-color: #3b5998;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.btn1:hover{
+    color: white;
+    background-color: brown;
+}
+.phoodie{
+    font-size: 42px;
+}
+phoodie1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: oblique;
+}
