@@ -41,13 +41,43 @@ body{
     background-color: transparent;
     color: black;
 }
-.img {
+.button2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    
+}
+.button2:hover{
+    background-color: transparent;
+    color: brown;
+}
+ul li ul{
+    background-color: transparent;
+}
+ul li ul li{
+    float: none;
+}
+ul li ul{
+    display: none;
+}
+ul li:hover ul{
+    display: block;
+}
+.img{
     height: 630px;
     width: 1360px;
     position: center;
     
     size: cover;
     position: relative;
+}
+.imagef{
+    width: 100%;
+    height: auto;
 }
 .image{
    height: 300px;
